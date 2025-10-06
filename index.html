@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades and Comments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Student Grades Portal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Оценки</a></li>
+                    <li><a href="#">Комментарий</a></li>
+                    <li><a href="#">Выйти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="grades">
+                <h2>Ваши оценки</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Предмет</th>
+                            <th>Оценка</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Математика</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>IT</td>
+                            <td>85</td>
+                        </tr>
+                        <tr>
+                            <td>История</td>
+                            <td>90<td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="comment">
+                <h2>Оставьте комментарий</h2>
+                <form>
+                    <label for="comment">Ваш комментарий:</label>
+                    <textarea id="comment" rows="4" placeholder="Напишите здес..."></textarea>
+                    <button type="submit">Принять</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Student Portal</p>
+        </div>
+    </footer>
+
+</body>
+</html>
